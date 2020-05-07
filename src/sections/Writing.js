@@ -16,14 +16,14 @@ const MEDIUM_URL = 'https://medium.com';
 const Background = () => (
   <div>
     <Triangle
-      color="backgroundDark"
+      color="secondary"
       height={['15vh', '10vh']}
       width={['100vw', '100vw']}
       invertX
     />
 
     <Triangle
-      color="secondary"
+      color="backgroundDark"
       height={['50vh', '40vh']}
       width={['70vw', '40vw']}
       invertY
@@ -185,7 +185,7 @@ const Writing = () => (
       return (
         isMediumUserDefined && (
           <Section.Container id="writing" Background={Background}>
-            <Section.Header name="Writing" icon="✍️" label="writing" />
+            <Section.Header name="Writing" icon="💼" label="writing" />
             <CardContainer minWidth="300px">
               {posts.map(({ Component, ...rest }) => (
                 <Fade bottom key={rest.id}>
