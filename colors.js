@@ -2,7 +2,7 @@ module.exports = {
   background: '#FFFFFF',
   backgroundDark: '#dfdede',
 
-  text: '#333333',
+  text: '#000000',
 
   primary: '#231f20',
   primaryLight: '#231f20',
