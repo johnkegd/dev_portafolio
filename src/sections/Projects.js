@@ -30,14 +30,14 @@ const Background = () => (
     <Triangle
       color="primaryDark"
       height={['25vh', '40vh']}
-      width={['75vw', '60vw']}
+      width={['75vw', '90vw']}
       invertX
       invertY
     />
 
     <Triangle
-      color="backgroundDark"
-      height={['25vh', '20vh']}
+      color="secondary"
+      height={['35vh', '30vh']}
       width={['100vw', '100vw']}
       invertY
     />

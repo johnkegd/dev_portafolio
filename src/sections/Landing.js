@@ -11,13 +11,13 @@ import Triangle from '../components/Triangle';
 const Background = () => (
   <div>
     <Triangle
-      color="backgroundDark"
+      color="primary"
       height={['35vh', '80vh']}
       width={['95vw', '60vw']}
     />
 
     <Triangle
-      color="secondary"
+      color="primary"
       height={['38vh', '80vh']}
       width={['50vw', '35vw']}
     />
@@ -30,7 +30,7 @@ const Background = () => (
     />
 
     <Triangle
-      color="backgroundDark"
+      color="primary"
       height={['20vh', '20vh']}
       width={['100vw', '100vw']}
       invertX
@@ -76,7 +76,7 @@ const LandingPage = () => (
               fontSize={[6, 7]}
               mb={[3, 4, 5]}
             >
-              {`Hello, I'm ${name}!`}
+              {`Hi, I'm ${name}!`}
             </Heading>
 
             <Heading
