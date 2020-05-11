@@ -11,6 +11,8 @@ import Triangle from '../components/Triangle';
 import ImageSubtitle from '../components/ImageSubtitle';
 import Hide from '../components/Hide';
 
+
+
 const Background = () => (
   <div>
     <Triangle
