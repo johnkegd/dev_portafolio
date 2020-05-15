@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://johnkegd.github.io/Portafolio/">
+  <a href="https://johnkegd.netlify.app/" target="_blank">
     <img src="https://www.plattas.ch/img/logos/logojk.png" alt="Bootstrap logo" width="72" height="72">
   </a>
 </p>
@@ -7,7 +7,7 @@
 <h3 align="center">&#128188; My Portafolio &#128084;</h3>
 
 <p align="center">
-  this is my code history and important things about my developer skills.
+  In this project I managed to implement a development environment linked directly to a *Contenful* content manager and at the same time a *continuous development* integration to *Netlify*, Thanks to the help of *Gatsby* and other Starters tools, I have great ideas to implement in this project, I do not have much knowledge about React nor Gatsby but a lot of curiosity and desire to learn and improve a space made by me for me.
   <br>
   <h5>Tools and Frameworks</h5>
   <a href="https://getbootstrap.com/docs/4.4/"><strong>Bootstrap docs</strong></a>
@@ -15,17 +15,15 @@
   <br>
   <a href="https://nodejs.org/en/">Node.js</a>
   ·
-  <a href="https://reactjs.org/">React</a>
+  <a href="https://www.gatsbyjs.org/">Gatsby</a>
   ·
-  <a href="https://materializecss.com/">Materialize</a>
   ·
-  <a>browser-sync 2.26.7</a>
+  <a href="https://react.org/">React</a>
   ·
-  <a>gulp 4.0.2</a>
+  <a href="https://www.netlify.com/">Netlify</a>
   ·
-  <a>gulp-cli 2.2.0</a>
+  <a href="https://www.contentful.com/">Contentful</a>
   ·
-  <a>gulp-sass 4.0.2</a>
 </p>
 
 ## Creator
@@ -34,6 +32,7 @@
 
 - <https://www.linkedin.com/in/johnkegd/>
 - <https://github.com/johnkegd>
+- <https://johnkegd.netlify.app/>
 
 ## Thanks
 
