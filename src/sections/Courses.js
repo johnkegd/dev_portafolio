@@ -110,6 +110,7 @@ const Course = ({
   shortDescription,
   type,
   dateEnded,
+  courseUrl,
   imageC,
 }) => (
 
@@ -139,16 +140,9 @@ const Course = ({
           >
             <Box mx={1} fontSize={5}>
               <SocialLink
-                name="Check repository"
-                fontAwesomeIcon="github"
-                url="www.test"
-              />
-            </Box>
-            <Box mx={1} fontSize={5}>
-              <SocialLink
-                name="See project"
+                name="Check Couse"
                 fontAwesomeIcon="globe"
-                url="www.test"
+                url={courseUrl}
               />
             </Box>
           </Flex>
@@ -173,6 +167,7 @@ Course.propTypes = {
   shortDescription: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   dateEnded: PropTypes.string.isRequired,
+  courseUrl: PropTypes.string.isRequired,
   imageC: PropTypes.shape({
     image: PropTypes.shape({
       src: PropTypes.string,
@@ -194,6 +189,7 @@ const Courses = () => (
                     shortDescription
                     type
                     dateEnded(formatString: "YYYY")
+                    courseUrl
                     imageC {
                       title
                       image: resize(width: 200, quality: 100) {
