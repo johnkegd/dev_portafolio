@@ -58,7 +58,7 @@ typings/
 .next
 
 
-# imgs
+# imges and videos
 *.png
 *.jpg
 *.mp4

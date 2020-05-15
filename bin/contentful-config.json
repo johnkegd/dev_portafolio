@@ -639,17 +639,18 @@
       },
       "fields": {
         "name": {
-          "en-US": "Mate"
+          "en-US": "john Garcia"
         },
         "description": {
-          "en-US": "Gatsby v2 starter to create a top notch portfolio!"
+          "en-US": "John Garcia portfolio!"
         },
         "roles": {
           "en-US": [
-            "Quick setup 🚀",
-            "Responsive 📱",
-            "PWA ✨",
-            "Contentful CMS 🔧"
+            "Software Developer 👨‍💻",
+            "skills 💪",
+            "Java SE ⭐",
+            "Html & Css 🚀",
+            "Javascript 🌐"
           ]
         },
         "socialLinks": {
@@ -694,10 +695,10 @@
           }
         },
         "aboutMe": {
-          "en-US": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writing:](#writing) Take the information about your medium user and show up to 6 stories as cards with the link to Medium."
+          "en-US": "I am software developer. All my life I was a technology lover, more than a job is a passion for me, I love learning new things and that's why I think I have chosen the right profession. __4 important points to highlight__ 😃 : * [Personal:](#home) Born: 18. February 1993 Hometown: Barinas, Venezuela Permission: (B) Driver's License: (B) (A). * [Skills:](#about) Java SE, Hardware - and Software engineering, Object Oriented Programming (OOP), Git- Gihub and Gitlab. * [Social skills:](#writing) Empathy, Cooperative Leadership Style,Joyfulness, Adaptability, Good communication skills. * [Projects:](#projects) In my projects I have a wide variety of different topics, i am always open to new experiences."
         },
         "mediumUser": {
-          "en-US": "@mate.starter"
+          "en-US": "@johnkegd"
         },
         "projects": {
           "en-US": [
@@ -785,7 +786,7 @@
           "en-US": "Github"
         },
         "url": {
-          "en-US": "https://github.com/EmaSuriano/gatsby-starter-mate/blob/master/README.md"
+          "en-US": "hhttps://github.com/johnkegd/dev_portafolio/README.md"
         },
         "fontAwesomeIcon": {
           "en-US": "github"
@@ -1103,7 +1104,7 @@
           "en-US": "Medium"
         },
         "url": {
-          "en-US": "https://medium.com/@emasuriano"
+          "en-US": "https://medium.com/@johnkegd"
         },
         "fontAwesomeIcon": {
           "en-US": "medium"
@@ -1169,7 +1170,7 @@
           "en-US": "Contact me"
         },
         "url": {
-          "en-US": "https://emanuelsuriano.typeform.com/to/OeETl6"
+          "en-US": "https://johnkegd.typeform.com/to/bFuyr6"
         },
         "fontAwesomeIcon": {
           "en-US": "envelope"
@@ -1235,7 +1236,7 @@
           "en-US": "Twitter"
         },
         "url": {
-          "en-US": "https://twitter.com/emasuriano"
+          "en-US": "https://twitter.com/johnkegd"
         },
         "fontAwesomeIcon": {
           "en-US": "twitter"
@@ -1503,14 +1504,14 @@
       },
       "fields": {
         "title": {
-          "en-US": "Mate Logo"
+          "en-US": "Johnkegd Logo"
         },
         "description": {
-          "en-US": "Mate Logo"
+          "en-US": "Johnkegd Logo"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/ntiequ7mc6q6/6nf3rNaaVaUqYcoAcciSeC/4433ecac61b8aa767edd9e11739bb30a/Mate_Logo.png",
+            "url": "//https://www.plattas.ch/img/logos/logojk.png",
             "details": {
               "size": 52527,
               "image": {
@@ -1518,7 +1519,7 @@
                 "height": 948
               }
             },
-            "fileName": "Mate Logo.png",
+            "fileName": "Johnkegd logojk.png",
             "contentType": "image/png"
           }
         }
