@@ -10,7 +10,6 @@ import ImageSubtitle from '../components/ImageSubtitle';
 import { CardContainer, Card } from '../components/Card';
 import SocialLink from '../components/SocialLink';
 import Hide from '../components/Hide';
-import Carousel from '../components/Carousel';
 
 
 const Background = () => (
@@ -215,7 +214,6 @@ const Courses = () => (
         </CardContainer>
           )}
     />   
-    <Carousel />
   </Section.Container>
   
 );

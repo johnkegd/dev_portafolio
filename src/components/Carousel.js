@@ -1,9 +1,17 @@
 
 import React, { Component } from "react";
 import Slider from "react-slick";
+import styled from 'styled-components';
 import Section from "./Section";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+
+
+const CarouselContainer = styled.div`
+  background: ${(props) => props.theme.colors.secondary};
+  
+`;
+
 
 const baseURl ="https://www.plattas.ch/img/logos";
 // eslint-disable-next-line react/prefer-stateless-function
@@ -11,7 +19,7 @@ export default class Carousel extends Component {
   render() {
     const settings = {
       dots: true,
-      infinite: false,
+      infinite: true,
       centerPadding: "60px",
       slidesToShow: 4,
       slidesToScroll: 4,
@@ -27,30 +35,30 @@ export default class Carousel extends Component {
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
-            infinite: true,
             dots: true
           }
         },
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 3,
+            slidesToScroll: 3,
             initialSlide: 2
           }
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            dots:false
           }
         }
       ]
     };
     return (
-      <div>
-        <Section.Header name="Anothers Skills and Courses" />
+      <CarouselContainer>
+        <Section.Header name=" Anothers Skills" />
         <Slider {...settings}>
           
           <div>
@@ -122,7 +130,8 @@ export default class Carousel extends Component {
             <span text-align="center">Photoshop</span>
           </div>
         </Slider>
-      </div>
+
+      </CarouselContainer>  
     );
   }
 }
