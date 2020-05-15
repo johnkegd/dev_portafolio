@@ -184,8 +184,8 @@ const Writing = () => (
 
       return (
         isMediumUserDefined && (
-          <Section.Container id="writing" Background={Background}>
-            <Section.Header name="Writing" icon="💼" label="writing" />
+          <Section.Container id="Hobbies" Background={Background}>
+            <Section.Header name="Hobbies" icon="💕" label="Hobbies" />
             <CardContainer minWidth="300px">
               {posts.map(({ Component, ...rest }) => (
                 <Fade bottom key={rest.id}>

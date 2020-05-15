@@ -41,6 +41,7 @@ const ProfilePicture = styled(Image)`
   }
 `;
 
+
 const About = () => (
   <Section.Container id="about" Background={Background}>
     <Section.Header name="About me" icon="🙋‍♂️" label="person" />
@@ -86,6 +87,11 @@ const About = () => (
                   mt={[4, 4, 0]}
                   ml={[0, 0, 1]}
                 />
+                <a href="https://drive.google.com/open?id=1xKHJ_QYSfPoX44gD7Nx3c338uBZYgJNw" alt="John Garcia CV" rel="noopener noreferrer" target="_blank">
+                  <h1>
+                    <span role="img" aria-label="attachment">Download CV📎</span>
+                  </h1>
+                </a>
               </Fade>
             </Box>
           </Flex>
