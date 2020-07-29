@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://johnkegd.netlify.app/" target="_blank">
-    <img src="https://www.plattas.ch/img/logos/logojk.png" alt="Bootstrap logo" width="72" height="72">
+  <a href="https://media-exp1.licdn.com/dms/image/C4D03AQG4W4bo_yx1mA/profile-displayphoto-shrink_200_200/0?e=1601510400&v=beta&t=bzQZ87tMpdLarNWINY3GgIKDeeGNJWBITH3b3zVbISE" target="_blank">
+    <img src="https://www.plattas.ch/img/logos/logojk.png" alt="johnkegd - Profile" width="72" height="72">
   </a>
 </p>
 
